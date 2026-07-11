@@ -1,0 +1,28 @@
+# Implementation Task List
+
+- [x] Project directory and configuration setup
+  - [x] Create `doctor-appointment-system` directory structure
+  - [x] Initialize backend `package.json` and `tsconfig.json`
+  - [x] Initialize frontend `package.json`, `vite.config.ts`, and `tsconfig.json`
+- [x] Backend development
+  - [x] Install backend dependencies (Express, Prisma, JWT, Bcrypt, CORS, TypeScript, etc.)
+  - [x] Configure `prisma/schema.prisma` and `.env`
+  - [x] Create database connection helper
+  - [x] Implement Authentication middleware (`auth.middleware.ts`) and validation utilities
+  - [x] Implement controllers (auth, user, doctor, appointment)
+  - [x] Configure Express routes and central entrypoint (`index.ts`)
+  - [x] Implement seed script (`seed.ts`)
+- [x] Frontend development
+  - [x] Install frontend dependencies (React Router, Tailwind CSS v4, Lucide icons)
+  - [x] Setup global styles (`index.css` with `@import "tailwindcss"`) and base template (`index.html`)
+  - [x] Implement API client (`services/api.ts`)
+  - [x] Implement Auth Context (`context/AuthContext.tsx`) and route protection
+  - [x] Build shared UI components (Navbar, Layout, ProtectedRoute, UI Cards)
+  - [x] Build Patient pages (Patient Dashboard, Book Appointment, Profile)
+  - [x] Build Doctor pages (Doctor Dashboard, Availability Planner)
+  - [x] Build Auth pages (Login, Register)
+  - [x] Configure routes in `App.tsx` and bootstrap in `main.tsx`
+- [x] Verification and Documentation
+  - [x] Run backend tests/validation checks
+  - [x] Verify frontend build and layouts
+  - [x] Write the walkthrough summary (`walkthrough.md`)

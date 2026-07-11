@@ -1,0 +1,8 @@
+Collecting mysqlclient
+  Downloading mysqlclient-2.2.8-cp313-cp313-win_amd64.whl.metadata (5.2 kB)
+Downloading mysqlclient-2.2.8-cp313-cp313-win_amd64.whl (207 kB)
+Installing collected packages: mysqlclient
+Successfully installed mysqlclient-2.2.8
+
+[notice] A new release of pip is available: 25.2 -> 26.1.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
