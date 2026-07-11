@@ -1,0 +1,36 @@
+# Tasks
+
+- `[x]` 1. Backend Setup & Dependencies
+  - `[x]` Create Python Virtual Environment (venv)
+  - `[x]` Create requirements.txt
+  - `[x]` Install packages in venv
+  - `[x]` Initialize Django project `doctor_backend` & app `api`
+  - `[x]` Configure settings.py and .env (MySQL, JWT, custom User)
+- `[x]` 2. Database Models & Migrations
+  - `[x]` Implement models.py (CustomUser, DoctorProfile, PatientProfile, Appointment)
+  - `[x]` Generate & apply migrations to MySQL
+  - `[x]` Create superuser / initial admin user
+- `[x]` 3. Serializers & JWT Authentication Backend
+  - `[x]` Implement serializers.py (Register, Profile, Appointment)
+  - `[x]` Implement views.py authentication & custom token claims
+  - `[x]` Setup backend URLs for auth
+- `[x]` 4. Core Business Logic & ViewSets
+  - `[x]` Implement Patient, Doctor, and Appointment ViewSets
+  - `[x]` Implement Admin Statistics view
+  - `[x]` Route ViewSets using DRF Router in urls.py
+- `[x]` 5. Frontend Setup & Cleanup
+  - `[x]` Clean up previous TypeScript files from frontend folder
+  - `[x]` Write package.json, vite.config.js, index.html
+  - `[x]` Run npm install
+- `[x]` 6. Frontend Core Setup
+  - `[x]` Create index.css (Modern dark-gradient glassmorphism styling)
+  - `[x]` Implement services/api.js (Axios with JWT request/response interceptors)
+  - `[x]` Implement App.jsx with React Router & ProtectedRoute guard
+- `[x]` 7. Frontend Dashboards & Pages
+  - `[x]` Login & Register components
+  - `[x]` Patient Dashboard
+  - `[x]` Doctor Dashboard
+  - `[x]` Admin Dashboard
+- `[x]` 8. Verification & Walkthrough
+  - `[x]` Test end-to-end appointment booking flow
+  - `[x]` Create walkthrough.md with verification details
