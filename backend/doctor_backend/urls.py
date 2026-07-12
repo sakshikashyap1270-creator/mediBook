@@ -1,4 +1,5 @@
 """
+from django.views.generic import TemplateView
 URL configuration for doctor_backend project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
